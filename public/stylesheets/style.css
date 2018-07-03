@@ -1,0 +1,66 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00B7FF;
+}
+
+.loginModel{
+  width: 40%;
+  margin: 0 auto;
+  border: solid #b3acac 0.01rem;
+  padding: 1rem;
+}
+
+.button{
+  background-color: #509cfb !important;
+    height: 40px !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+.OnRight{
+  text-align: right;
+    float: right;
+    width: 10%;
+}
+
+.md-transition-in{
+  max-height: 100% !important;
+    width: 45% !important;
+    padding: 2%;
+}
+
+.success{
+  color:00ff00;
+  text-align: center;
+}

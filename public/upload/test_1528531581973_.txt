@@ -1,0 +1,261 @@
+ramanujsahu@rediffmail.com
+manager
+
+ramanujlaljiprasadsahu@gmail.com
+sagar
+
+santosh.narawade1@gmail.com
+santosh
+
+
+
+
+curl -s \
+  -X POST \
+  --user "850bd2765aabd121741ba5e5cca20e43:2a7cff51a3ded70170f57de28b6b9f55" \
+  https://api.mailjet.com/v3.1/send \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "Messages":[
+        {
+            "From": {
+                "Email": "pro-file@pro-file.us",
+                "Name": "ProFile"
+            },
+            "To": [
+                {
+                    "Email": "santosh.narawade1@gmail.com",
+                    "Name": "Santosh Narwade"
+                }
+            ],
+            "Subject": "Your email flight plan!",
+            "HTMLPart": "Hello <br><br>You have an invite on PRO-FILE Platform <br><br> Have sent you an Invite to joinpro-file.us<br><br>Thanks & Regards,<br>PRO-FILE Team"
+        }
+    ]
+  }'
+
+
+ "Hello <br><br>You have an invite on PRO-FILE Platform <br><br> Have sent you an Invite to join<a href='https:\\pro-file.us>pro-file.us'>pro-file.us</a><br><br>Thanks & Regards,<br>PRO-FILE Team";
+
+
+
+
+ request = new MailjetRequest(Emailv31.resource)
+        .property(Emailv31.MESSAGES, new JSONArray()
+                .put(new JSONObject()
+                    .put(Emailv31.Message.FROM, new JSONObject()
+                        .put("Email", "pro-file@pro-file.us")
+                        .put("Name", "Pro-File Team"))
+                    .put(Emailv31.Message.TO, new JSONArray()
+                        .put(new JSONObject()
+                            .put("Email", email)
+                            .put("Name", "Passenger")))
+                    .put(Emailv31.Message.SUBJECT, subject)
+                    // .put(Emailv31.Message.TEXTPART, "Dear passenger, welcome to Mailjet! May the delivery force be with you!")
+                    .put(Emailv31.Message.HTMLPART, htmlMailBody)));
+      response = client.post(request);
+      System.out.println("Mail Send Responce  ");
+      System.out.println(response.getStatus());
+      System.out.println("Mail Send Responce  2");
+      System.out.println(response.getData());
+
+
+all mails should be working from mailjet
+
+chat is showing error between manager and player.
+
+
+Manager is not able to see the stats which have been updated by the player.
+
+
+
+
+
+}.@c$~#scexB
+
+
+
+
+patronous-HP-240-G1-Notebook-PC
+
+
+99f04cbadaf694fc061e13071f988fb0
+
+
+
+
+7304842357
+
+
+
+
+tried to get connect with ssh from the given below but we are not able to get connect from ssh.
+
+Server IP: 70.32.96.101
+UN: root
+PW: w0nDarWareNJbeech!
+
+Please let us know if we try to use something else than this.
+
+Also when get login into the cpanel 
+https://v7fz-r5l5.accessdomain.com:2087
+
+we could not got the code folder here, please let us know where we will be able to see the that code.
+
+
+
+
+
+
+home449174795.1and1-data.host
+
+u71784689-patronous
+
+Patronous@123
+
+22
+4.2.6
+
+
+
+
+
+
+
+.add-banner-border{
+        border: solid 0.015rem;
+    padding: 0px 12px;
+    margin-bottom: 30px;
+}
+.upload-btn{
+      height: 30px;
+}
+.banner-img{
+  width:100%;
+  max-width: 100%;
+}
+
+
+
+
+http://www.rly-rect-appn.in/alptech2017/maintance.html
+
+http://www.rrbmumbai.gov.in/latest_vacancies.php
+
+
+
+
+<!-- {{ // $notification->user->email }} -->
+
+
+
+8554milind
+milindtapase88@gmail.com
+
+
+
+milindtapase88@gmail.com
+8805531504
+
+
+835152019603
+
+h006203
+
+
+2481624294
+
+
+
+	39.266522	-74.594501
+
+
+php artisan make:controller Api/ContestController
+
+
+mencoder 20180420_120311.mp4 -vf scale=640:480 -ovc lavc -o VideoS2-small.mp4
+
+avconv -i 20180420_120311.mp4 -s 640x480 output.mp4
+
+
+
+
+11-Nov-2017
+(11-Nov-2017)	BY TRANSFER INB IMPS731512904437/7304842357/XX4848/Santosh na	MAA000070819632 MAA000070819632		5,000.00
+
+
+RHSSCB
+
+
+
+
+
+Paytm Code :- 
+
+MOVIEBILL
+
+
+
+945 X 130
+
+
+1065 X 165 
+
+
+
+
+
+https://manage.oceancityvacation.com/api/beach-report
+
+
+
+V002641
+
+
+2. Turn off Disable Do Not Disturb
+
+
+
+<tr class="minors_table hidden" ><th scope="row" class="left " data-stat="year_ID" >2003</th><td class="right " data-stat="age" >21
+
+
+9189
+
+
+
+
+
+
+Do we need to start on mediawise apps text validation functionality (adds)
+Limit number of posts per Mobile Issues:
+
+
+
+CET : 64
+JEE : +9
+
+
+
+SELECT  * FROM project_users LEFT JOIN users ON project_users.pu_user = users.u_id WHERE pu_project='8'
+
+
+
+Wordpress admin portal and change in an estimate
+
+ Restaurant Week is cut off on both sides 
+=>Image width should be 500px, uploaded image is smaller.
+
+
+
+
+
+Pixel 2
+8.1.0
+
+
+
+
+
+Seans Id is :6708
+
+10698

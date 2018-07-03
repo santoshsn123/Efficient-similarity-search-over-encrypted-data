@@ -1,0 +1,110 @@
+sengrade
+mailcheck
+
+
+
+https://sendgrid.com/marketing/sendgrid-services/?cvosrc=PPC.Google.sengrid.com&cvo_cid=SendGrid%20-%20IN%20-%20Brand%20-%20(English)&mc=Paid%20Search&mcd=AdWords&keyword=sengrid.com&network=g&matchtype=b&mobile=&content=&search=1&gclid=CjwKCAiAqIHTBRAVEiwA6TgJw4uLrF6E7jObPpZVMsthVcaRLpIZKG1VCpufijLwdOpY0108-zsfERoCk-YQAvD_BwE
+
+Much better in price as compaired with Postmark
+
+
+----------------------------------------
+Elastic Email :
+
+https://elasticemail.com/pricing/
+
+Up TO 5000 mails free per day, so our initial stage development process will be chargeless.
+
+API Documentation : https://elasticemail.com/api-documentation/integration-libraries/introduction-to-our-java-api-integration-library/
+
+----------------------------------------
+
+MailGun : 
+https://www.mailgun.com/pricing
+
+Mailgun is again having lower cost 
+
+Up To 10000 mails free per day.
+
+----------------------------------------
+
+SendinBlue
+
+https://www.sendinblue.com/pricing/
+
+9000 mails free per month.
+
+
+-------------------------------------------
+MailJet
+https://www.mailjet.com
+
+6000 Mails free per month
+
+API Document : https://www.mailjet.com/email-api/
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+
+
+Can't add coaches, things are shifted down and wider
+=> We tested the same, it is working well on our side. Please check the same, that should be working with the new version.
+
+when I widen my chrome screen, the date posted goes out of the feed box
+=> I am trying to figure out where is this screen shot from. It will be great if you will take complete screenshot rather than cropping it.
+
+I think the issue with the responcive is from previous version, we did not make any change in that part.
+
+
+
+can this be resolved? also - do we have the green PRO-FILE logo for me to share?
+=> Yes sure, We will share the logo here.
+
+
+We are planning to make changes in content as below.
+
+1) "To get introduce yourself on social media, to get connect with the peoples of your field, find your favourate players. You can create your team here, can post message for all."
+
+To
+
+"Introduce yourself on social media and connect with the athletes of your field. You also can search your favourite players and get connect with them. You can create your team here or follow your favourite team."
+
+
+2) "Just create your account and get connect with other playes, and can join the team."
+
+To
+
+"Create account and start connecting with other players. If you are a team manager sign up as a manager and create your team."
+
+
+Please check it and let us know if we need to make some more changes in the text.
+
+
+
+
+
+
+
+
+
+
+
+santosh.narawade12@gmail.com
+santosh
+Manager
+
+harshita@gmail.com
+harshita
+Manager 
+
+harshita12@gmail.com
+harshita
+Manager
+

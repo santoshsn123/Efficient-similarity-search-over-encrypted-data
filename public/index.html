@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js" type="text/javascript"> </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="images/header.jpg" style="width: 100%;">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Efficient similarity search over encrypted data</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <div class="row container">
+            <div class="col-sm-8 jumbotron">
+                <h2>About Project</h2>
+                In recent years, due to the appealing features of cloud computing, large amount of data have been stored in the cloud. Although
+                cloud based services offer many advantages, privacy and security of the sensitive data is a big concern.
+                To mitigate the concerns, it is desirable to outsource sensitive data in encrypted form. Encrypted storage
+                protects the data against illegal access, but it complicates some basic, yet important functionality such
+                as the search on the data. To achieve search over encrypted data without compromising the privacy, considerable
+                amount of searchable encryption schemes have been proposed in the literature. However, almost all of them
+                handle exact query matching but not similarity matching, a crucial requirement for real world applications.
+                Although some sophisticated secure multi-party computation based cryptographic techniques are available for
+                similarity tests, they are computationally intensive and do not scale for large data sources. In this paper,
+                we propose an efficient scheme for similarity search over encrypted data. To do so, we utilize a state-of-the-art
+                algorithm for fast near neighbor search in high dimensional spaces called locality sensitive hashing.
+            </div>
+            <div class="col-sm-4">
+                <img src="images/image001.png" style="width:100%;">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+
+</html>

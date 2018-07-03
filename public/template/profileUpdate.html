@@ -1,0 +1,63 @@
+<div class="col-sm-3 jumbotron">
+    <h3>Profile Picture</h3>
+    <!-- images/avatar.png -->
+    <img ng-src="{{register.u_profilePic ? 'upload/'+register.u_profilePic : 'images/avatar.png'  }}" class="profileImg">
+    <div class="btn-Outer">
+        <button type="file" class="btn btn-primary" ngf-select ng-model="profilePic">Upload Image</button>
+    </div>
+
+    <h3>Change Password</h3>
+    <!-- images/avatar.png -->
+    <h3 class="success">{{passMessage}}</h3>
+    <form ng-submit="ChangePass();">
+    <div class="form-group">
+        <label for="email">Old Password:</label>
+        <input type="password" class="form-control" placeholder="Old Password" ng-model="chpass.oldpass">
+    </div>
+    <div class="form-group">
+        <label for="email">New Password:</label>
+        <input type="password" class="form-control" placeholder="New Password" ng-model="chpass.newpass">
+    </div>
+    <div class="form-group">
+        <label for="email">Confirm Password:</label>
+        <input type="password" class="form-control" placeholder="Confirm Password" ng-model="chpass.cpass">
+    </div>
+    <div class="form-group">
+
+        <input type="submit" class="form-control" value="Change Password">
+    </div>
+    </form>
+</div>
+
+<div class="col-sm-9 jumbotron">
+    <h2>Profile Update</h2>
+    <h3 class="success">{{message}}</h3>
+    <form ng-submit="UpdateForm();">
+        <div class="form-group">
+            <label for="email">First Name:</label>
+            <input type="text" class="form-control" ng-model="register.u_firstname">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Last Name:</label>
+            <input type="text" class="form-control" ng-model="register.u_lastname">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Email:</label>
+            <input type="text" class="form-control" ng-model="register.u_email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Phone:</label>
+            <input type="text" class="form-control" ng-model="register.u_phone">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Address:</label>
+            <textarea name="address" ng-model="register.u_address" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Username:</label>
+            <input type="text" ng-model="register.u_username" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-default btn-primary">Update</button>
+    </form>
+</div>

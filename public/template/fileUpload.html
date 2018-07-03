@@ -1,0 +1,46 @@
+<div class="col-sm-12 jumbotron">
+    <h2>Your File Upload</h2>
+    <!-- <table class="table">
+        <tr>
+            <td>
+                <input type="file"  ngf-select ng-model="file"/>
+                <button ng-click="uploadFile()">upload me</button>
+            </td>
+        </tr>
+    </table> -->
+
+    <h2 class="success">{{message}}</h2>
+    <form ng-submit="uploadFile();">
+        <div class="form-group">
+            <label for="email">File Title:</label>
+            <input type="text" class="form-control" name="fname" ng-model="fileTitle">
+        </div>
+        <div class="form-group">
+            <label for="pwd">File:</label>
+            <input type="file" ngf-select ng-model="file" />
+        </div>
+        <div class="form-group">
+
+            <input type="submit" name="submit" value="Upload" class="btn btn-success" />
+        </div>
+    </form>
+
+    <h2 class="success">{{deleteMessage}}</h2>
+    <table class="table">
+            <tr>
+                    <td>#</td>
+                    <td>File Name</td>
+                    <td>File</td>
+                    <td>Upload On</td>
+                    <td>Action</td>
+                </tr>
+               
+                <tr ng-repeat="file in AllFiles">
+                        <td>{{$index+1}}</td>
+                        <td>{{file.f_title}}</td>
+                        <td>{{file.f_file}}</td>
+                        <td>{{file.f_datetime}}</td>
+                        <td><a href="javascript:void();" ng-click="deleteFile(file);" > Delete</a></td>
+                    </tr>
+    </table>
+</div>

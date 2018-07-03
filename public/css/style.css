@@ -1,0 +1,70 @@
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #eeeeef;
+        color: #4a4949;
+        text-align: center;
+        padding: 12px;
+            }
+            .nav-tabs
+            {
+                border-bottom:none !important;
+            }
+            
+            
+            .users{
+                border-radius:15px;
+                width: 150px; 
+                margin-top: 31px;
+                height: 124px;
+            }
+            .user-title{
+                text-align: center;
+            }
+            .custom-search{
+                width: 85%;
+                float: left;
+            }
+            .search-btn{
+                margin-left: 2%;
+            }
+            .clear{
+                clear:both;
+            }
+            .margin-top{
+                margin-top:60px;
+            }
+            .success{
+                color:#00ff00;
+                text-align: center;
+            }
+            .profileImg{
+                width: 160px;
+                border-radius: 20px;
+            }
+            .btn-Outer{
+                text-align: center;
+                margin-top: 10%;
+            }
+
+            .users>li{
+                margin-left: 2%;
+            }
+            .clear{
+                    clear: both;
+            }
+            .declinedreq
+            {
+                color:#ff0000;
+            }
+            .acceptedreq{
+                color:#00ff00;
+            }
+            .reqsent{
+                color:#ea852d;
+            }
+            .highlightedText {
+                background: yellow;
+            }

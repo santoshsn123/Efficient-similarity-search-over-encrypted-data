@@ -1,0 +1,19 @@
+  <div class="col-sm-12 jumbotron">
+    <h2>Request Access</h2>
+    <!-- Centered Tabs -->
+    <input type="text" class="form-control" ng-model="searchText" >
+    <ul class="nav nav-tabs users" style=" width: 100%">
+        <li ng-repeat="user in AllUsers | filter : searchText" ng-if="loggedInUser.u_id!=user.u_id">
+            <img ng-src="{{user.u_profilePic ?  'upload/'+user.u_profilePic : 'images/avatar.png' }}"  class="users">
+            <div class="user-title">
+                <h4>{{user.u_firstname+" "+user.u_lastname}}</h4>
+                <span class="btn btn-primary" ng-click="requestAccess(user);" ng-if="user.r_status==null || user.r_status=='cancelled'">Request Access</span>
+                <span ng-if="user.r_status=='requested'" class="reqsent" >Request Pending</span>
+                <span ng-if="user.r_status=='declined'" class="declinedreq">Request Declined</span>
+                <span ng-if="user.r_status=='accepted'" class="acceptedreq">Request Accepted</span>
+                <br><span class="btn btn-warning" ng-click="cancelRequest(user);" ng-if="user.r_status=='requested'">Cancel Request</span>
+            </div>
+        </li>
+      
+    </ul>
+  </div>

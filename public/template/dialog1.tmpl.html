@@ -1,0 +1,48 @@
+<form ng-submit="add_user()">
+    <div>{{errorMessage}}</div>
+    <table class="table">
+        <tr>
+            <td>Username</td>
+            <td>
+                <input type="text" name="username" class="form-control" ng-model="user.username">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="text" name="email" class="form-control" ng-model="user.email">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>
+                <input type="text" name="phone" class="form-control" ng-model="user.phone">
+            </td>
+        </tr>
+        <tr ng-if="!user._id">
+            <td>Password</td>
+            <td>
+                <input type="password" name="password" class="form-control" ng-model="user.password">
+            </td>
+        </tr>
+        <tr ng-if="!user._id">
+            <td>Confirm Password</td>
+            <td>
+                <input type="password" name="cpassword" class="form-control" ng-model="user.cpassword">
+            </td>
+        </tr>
+        <tr>
+            <td>User Type</td>
+            <td>
+                <select ng-model="user.user_type" class="form-control" ng-options="x for x in userTypes">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="submit" class="btn" value="Add User">
+            </td>
+        </tr>
+    </table>
+</form>
